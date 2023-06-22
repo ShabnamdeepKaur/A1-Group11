@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* Assignment 1 | COMP1073 Client-Side JavaScript */
+
+#txtRow {
+    transform: scale(1);
+    transition: ease all 1.5s;
+}
+
+#txtRow:hover {
+    transform: scale(1.2);
+    transition: ease all 1.5s;
+}
+
+#btnStart {
+    margin-left: 200px;
+}
+
+#btn1 {
+    background-color: #b300b3;
+    color: white;
+}
+
+#btn1:hover {
+    border: 2px #b300b3 solid;
+    color: #b300b3;
+}
+
+
+#btn2 {
+    background-color: #00ccff;
+    color: white;
+}
+
+#btn2:hover {
+    border: 2px #00ccff solid;
+    color: #00ccff;
+}
+
+
+#btn3 {
+    background-color: #00994d;
+    color: white;
+}
+
+#btn3:hover {
+    border: 2px #00994d solid;
+    color: #00994d;
+}
+
+
+#btn4 {
+    background-color: #ff8533;
+    color: white;
+}
+
+#btn4:hover {
+    border: 2px #ff8533 solid;
+    color: #ff8533;
+}
+
+
+#btn5 {
+    background-color: #ff80df;
+    color: white;
+}
+
+#btn5:hover {
+    border: 2px #ff80df solid;
+    color: #ff80df;
+}
+
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5 {
+    width: 90px;
+    height: 90px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#btn1:hover,
+#btn2:hover,
+#btn3:hover,
+#btn4:hover,
+#btn5:hover {
+
+    background-color: aliceblue;
+    transform: rotate(360deg) scale(1.2);
+    transition: ease all 1.2s;
+}
